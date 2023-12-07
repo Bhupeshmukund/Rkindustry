@@ -569,6 +569,7 @@ h6 {
    background-color: #DCE9F1;
   background-size: cover;
   margin-bottom: -200px;
+  margin-top: 80px;
 }
 
 #hero .container {
@@ -601,6 +602,9 @@ h6 {
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
+  }
+  #hero {
+    margin-top: 200px;
   }
 }
 
@@ -651,6 +655,9 @@ p > img{
 
 @media (max-width: 992px) {
   #hero {
+    margin-top: 200px!important;
+  }
+  #hero {
     margin-bottom: 0;
     height: 100vh;
   }
@@ -678,6 +685,9 @@ p > img{
   .contact-info{
     font-size:10px ;
  }
+ #hero {
+  margin-top: 200px;
+}
 }
 
 
