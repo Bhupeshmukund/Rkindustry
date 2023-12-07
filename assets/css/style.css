@@ -454,7 +454,9 @@ h6 {
 }
 
 @media (max-width: 991px) {
- 
+ .Manufacturerandsuppler {
+  font-size: 12px;
+ }
   .mobile-nav-toggle {
     display: block;
   }
