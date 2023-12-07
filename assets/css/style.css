@@ -451,6 +451,7 @@ h6 {
 
 .rk-top {
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 @media (max-width: 991px) {
