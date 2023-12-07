@@ -227,12 +227,16 @@ h6 {
   border-bottom: 7px solid #2c4964  ;
   padding-bottom: 10px;
 }
+.Manufacturerandsuppler{
+    font-size: 20px;
+  }
+  .rkText{
+    display: flex;
+    justify-content: center;
+  }
 
-.d-flex{
-  justify-content: space-around;
-}
 .input-field{
-  width: 326px;
+  width: auto;
 }
 
 #header .logo a {
@@ -241,6 +245,10 @@ h6 {
 
 #header .logo img {
   max-height: 100px;
+}
+
+.close{
+  display: none!important;
 }
 
 /**
@@ -262,6 +270,9 @@ h6 {
   background: #166ab5;
   color: #fff;
 }
+.img-fluid{
+  height: 100px;
+}
 
 @media (max-width: 768px) {
   .appointment-btn {
@@ -270,10 +281,27 @@ h6 {
   }
   
 }
+
 @media screen and (max-width: 640px) {
+ 
   .contact-info{
     font-size:10px ;
  }
+ #header .logo a{
+  font-size: 26px;
+}
+#header .Manufacturerandsuppler{
+  font-size:10px ;
+}
+#header .logo img{
+  height: 75px;
+}
+.iso{
+  font-size: 12px;
+}
+.img-fluid{
+  height: 85px;
+}
 }
 
 /*--------------------------------------------------------------
@@ -415,7 +443,12 @@ h6 {
   color: #fff;
 }
 
+.rk-top {
+  flex-wrap: wrap;
+}
+
 @media (max-width: 991px) {
+ 
   .mobile-nav-toggle {
     display: block;
   }
@@ -423,6 +456,11 @@ h6 {
   .navbar ul {
     display: none;
   }
+ 
+  #header .logo{
+    font-size: 30px;
+  }
+  
 }
 
 .navbar-mobile {
